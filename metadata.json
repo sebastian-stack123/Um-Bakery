@@ -1,0 +1,8 @@
+{
+  "name": "Um! Bakery",
+  "description": "Um! Bakery es una pastelería y cafetería especializada en postres artesanales, bebidas, brunch y productos recién horneados.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
