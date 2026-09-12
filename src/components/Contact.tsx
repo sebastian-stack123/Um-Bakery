@@ -3,9 +3,9 @@ import { Instagram, Smartphone, Send, PhoneCall } from 'lucide-react';
 
 export default function Contact() {
   const socialLinks = [
-    { name: "WhatsApp", icon: <Smartphone size={24} />, href: "https://wa.me/593963516821", color: "bg-green-500", textColor: "text-green-500" },
-    { name: "Instagram", icon: <Instagram size={24} />, href: "https://instagram.com/um_bakery", color: "bg-pink-600", textColor: "text-pink-600" },
-    { name: "Llamar", icon: <PhoneCall size={24} />, href: "tel:025119894", color: "bg-blue-500", textColor: "text-blue-500" },
+    { name: "WhatsApp", icon: <Smartphone size={24} />, href: "https://wa.me/593998740006", color: "bg-green-500", textColor: "text-green-500" },
+    { name: "Instagram", icon: <Instagram size={24} />, href: "https://instagram.com/khasa_bakery", color: "bg-pink-600", textColor: "text-pink-600" },
+    { name: "Llamar", icon: <PhoneCall size={24} />, href: "tel:+593998740006", color: "bg-blue-500", textColor: "text-blue-500" },
   ];
 
   return (
@@ -34,24 +34,30 @@ export default function Contact() {
             </motion.p>
             
             <div className="flex flex-wrap gap-4 mb-8">
-              {socialLinks.map((link, idx) => (
-                <motion.a
-                  key={link.name}
-                  href={link.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  initial={{ opacity: 0, scale: 0.9 }}
-                  whileInView={{ opacity: 1, scale: 1 }}
-                  viewport={{ once: true }}
-                  transition={{ delay: 0.2 + (idx * 0.1) }}
-                  className="flex items-center gap-2 bg-white px-6 py-4 rounded-2xl shadow-sm hover:shadow-md transition-shadow group"
-                >
-                  <div className={`p-2 rounded-full ${link.color} text-white group-hover:scale-110 transition-transform`}>
-                    {link.icon}
-                  </div>
-                  <span className="font-bold text-brand-dark">{link.name}</span>
-                </motion.a>
-              ))}
+              {socialLinks.map((link, idx) => {
+                const isDisabled = link.name === "Instagram";
+                return (
+                  <motion.a
+                    key={link.name}
+                    href={isDisabled ? "#" : link.href}
+                    target={isDisabled ? undefined : "_blank"}
+                    rel={isDisabled ? undefined : "noopener noreferrer"}
+                    onClick={(e) => isDisabled && e.preventDefault()}
+                    initial={{ opacity: 0, scale: 0.9 }}
+                    whileInView={{ opacity: 1, scale: 1 }}
+                    viewport={{ once: true }}
+                    transition={{ delay: 0.2 + (idx * 0.1) }}
+                    className={`flex items-center gap-2 px-6 py-4 rounded-2xl shadow-sm transition-all group ${isDisabled ? 'bg-gray-100 opacity-60 cursor-not-allowed grayscale' : 'bg-white hover:shadow-md'}`}
+                  >
+                    <div className={`p-2 rounded-full ${link.color} text-white transition-transform ${isDisabled ? '' : 'group-hover:scale-110'}`}>
+                      {link.icon}
+                    </div>
+                    <span className="font-bold text-brand-dark">
+                      {link.name} {isDisabled && <span className="text-xs font-normal ml-1">(Próximamente)</span>}
+                    </span>
+                  </motion.a>
+                );
+              })}
             </div>
 
             <div className="flex gap-4">

@@ -8,7 +8,7 @@ export default function Hero() {
       <div className="absolute inset-0 z-0">
         <img
           src="https://images.unsplash.com/photo-1550617931-e17a7b70dce2?q=80&w=2070&auto=format&fit=crop"
-          alt="Um! Bakery Pastries"
+          alt="KHASA Pastries"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-brand-white/90 via-brand-white/70 to-transparent"></div>
@@ -24,12 +24,15 @@ export default function Hero() {
             <span className="inline-block py-1 px-3 rounded-full bg-brand-pink/20 text-brand-pink font-bold text-xs uppercase tracking-widest mb-4">
               Cada bocado merece un "¡Um!"
             </span>
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-black font-display text-brand-dark leading-tight mb-6 drop-shadow-lg">
-              Um! <br />
-              <span className="text-brand-pink">Bakery</span>
+            <h1 className="text-5xl md:text-6xl lg:text-7xl font-black font-display leading-tight mb-6 drop-shadow-lg flex gap-[2px]">
+              <span className="text-[#F9A8D4]">K</span>
+              <span className="text-[#FCD34D]">H</span>
+              <span className="text-[#93C5FD]">A</span>
+              <span className="text-[#C4B5FD]">S</span>
+              <span className="text-[#FDA4AF]">A</span>
             </h1>
             <p className="text-lg md:text-xl text-brand-dark/80 mb-8 max-w-lg font-medium">
-              Pastelería personalizada y cafetería donde cada detalle está hecho para sorprender.
+              Repostería 100% virtual donde cada detalle está hecho para sorprender. Tus postres favoritos, directo a tu puerta.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
@@ -41,7 +44,7 @@ export default function Hero() {
                 <ChevronRight size={20} className="group-hover:translate-x-1 transition-transform" />
               </a>
               <a
-                href="https://wa.me/593963516821"
+                href="https://wa.me/593998740006"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-transparent border-2 border-brand-dark/40 hover:bg-brand-dark/10 backdrop-blur-sm text-brand-dark font-bold py-4 px-8 rounded-2xl transition-colors duration-300 text-center"

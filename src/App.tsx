@@ -11,7 +11,6 @@ import Menu from './components/Menu';
 import CustomOrders from './components/CustomOrders';
 import Gallery from './components/Gallery';
 import Reviews from './components/Reviews';
-import Location from './components/Location';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import FloatingButtons from './components/FloatingButtons';
@@ -28,7 +27,6 @@ export default function App() {
         <CustomOrders />
         <Gallery />
         <Reviews />
-        <Location />
         <Contact />
       </main>
       <Footer />

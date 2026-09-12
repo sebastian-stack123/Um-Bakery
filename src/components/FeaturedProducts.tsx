@@ -25,9 +25,9 @@ const products = [
   },
   {
     id: 4,
-    name: "Café & Bebidas",
-    description: "Bebidas frías, calientes y opciones de brunch.",
-    image: "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?q=80&w=1975&auto=format&fit=crop",
+    name: "Desayunos Sorpresa",
+    description: "Cajas de regalo y sorpresas a domicilio.",
+    image: "https://images.unsplash.com/photo-1513442542250-854d436a73f2?q=80&w=2047&auto=format&fit=crop",
     color: "bg-brand-cream"
   }
 ];

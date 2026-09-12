@@ -1,11 +1,11 @@
 import { motion } from 'motion/react';
-import { Heart, Coffee, Star, Cake } from 'lucide-react';
+import { Heart, Truck, Star, Cake } from 'lucide-react';
 
 export default function About() {
   const features = [
     { icon: <Heart size={24} />, title: "Productos artesanales", desc: "Hechos a mano con amor y dedicación." },
     { icon: <Star size={24} />, title: "Ingredientes de calidad", desc: "Seleccionamos lo mejor para un sabor excepcional." },
-    { icon: <Coffee size={24} />, title: "Cafetería y Brunch", desc: "El complemento perfecto para tus mañanas." },
+    { icon: <Truck size={24} />, title: "Entregas a Domicilio", desc: "Llevamos la felicidad fresca a la puerta de tu casa." },
     { icon: <Cake size={24} />, title: "Tortas personalizadas", desc: "Diseños únicos para celebraciones especiales." }
   ];
 
@@ -63,10 +63,10 @@ export default function About() {
                 Elaborando momentos de felicidad
               </h3>
               <p className="text-lg text-gray-600 mb-8 font-medium">
-                En Um! Bakery, creemos que cada bocado debe ser una experiencia inolvidable. 
-                Nacimos con la pasión de crear postres y un ambiente que te haga sentir como 
-                en casa. Nuestro ambiente acogedor y nuestra atención cercana son el sello 
-                que nos caracteriza.
+                En KHASA, creemos que cada bocado debe ser una experiencia inolvidable. 
+                Como repostería 100% virtual, nos dedicamos a hornear momentos de felicidad 
+                y llevarlos directamente a donde estés. Nuestro enfoque en los detalles y 
+                atención personalizada son el sello que nos caracteriza.
               </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

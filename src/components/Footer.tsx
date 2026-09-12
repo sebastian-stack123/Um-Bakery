@@ -6,13 +6,10 @@ export default function Footer() {
           
           <div>
             <a href="#inicio" className="flex items-center gap-2 mb-6 group inline-block">
-              <div className="w-10 h-10 bg-brand-yellow rounded-full flex items-center justify-center text-white font-display font-bold text-xl shadow-lg shadow-brand-yellow/20">
-                Um!
-              </div>
-              <span className="font-display font-bold text-2xl tracking-tight text-brand-dark">Bakery</span>
+              <span className="font-display font-black text-3xl tracking-tight text-brand-dark">KHASA</span>
             </a>
             <p className="text-brand-dark/60 mb-6 max-w-sm text-sm">
-              Pastelería personalizada y cafetería donde cada detalle está hecho para sorprender.
+              Repostería virtual donde cada detalle está hecho para sorprender, entregado en tu puerta.
             </p>
           </div>
 
@@ -28,29 +25,28 @@ export default function Footer() {
           <div>
             <h4 className="font-display font-black uppercase tracking-widest text-sm mb-6 text-brand-pink">Contacto</h4>
             <ul className="space-y-3 text-brand-dark/70 text-sm">
-              <li>Av. González Suárez N27-374</li>
-              <li>Quito, Ecuador</li>
-              <li>Local: (02) 511-9894</li>
-              <li>Pedidos: 0963516821</li>
+              <li>Repostería 100% Virtual</li>
+              <li>Envíos a todo Quito, Ecuador</li>
+              <li>Atención y Pedidos: +593 99 874 0006</li>
             </ul>
           </div>
 
           <div>
             <h4 className="font-display font-black uppercase tracking-widest text-sm mb-6 text-brand-pink">Síguenos</h4>
             <div className="flex flex-col space-y-3 text-sm">
-              <a href="https://instagram.com/um_bakery" target="_blank" rel="noopener noreferrer" className="text-brand-dark/70 uppercase tracking-widest text-xs font-bold hover:text-brand-pink transition-colors">
-                Instagram
-              </a>
-              <a href="https://tiktok.com/@um_bakery" target="_blank" rel="noopener noreferrer" className="text-brand-dark/70 uppercase tracking-widest text-xs font-bold hover:text-brand-pink transition-colors">
-                TikTok
-              </a>
+              <span className="text-brand-dark/40 uppercase tracking-widest text-xs font-bold cursor-not-allowed">
+                Instagram (Próximamente)
+              </span>
+              <span className="text-brand-dark/40 uppercase tracking-widest text-xs font-bold cursor-not-allowed">
+                TikTok (Próximamente)
+              </span>
             </div>
           </div>
           
         </div>
 
         <div className="border-t border-brand-yellow/20 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-brand-dark/50 text-xs font-bold uppercase tracking-widest">
-          <p>&copy; {new Date().getFullYear()} Um! Bakery. Todos los derechos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} KHASA. Todos los derechos reservados.</p>
           <p>Creado por Mantai.</p>
         </div>
       </div>

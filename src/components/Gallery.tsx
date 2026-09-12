@@ -30,7 +30,7 @@ export default function Gallery() {
             transition={{ delay: 0.1 }}
             className="text-4xl md:text-5xl font-black font-display text-brand-dark mb-6"
           >
-            Momentos Um!
+            Momentos KHASA
           </motion.h3>
         </div>
 

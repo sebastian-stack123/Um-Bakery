@@ -108,7 +108,7 @@ export default function Menu() {
 
         <div className="mt-16 text-center">
           <a
-            href="https://wa.me/593963516821"
+            href="https://wa.me/593998740006"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-brand-dark hover:bg-brand-pink text-white font-bold py-4 px-10 rounded-full transition-all duration-300 shadow-xl"

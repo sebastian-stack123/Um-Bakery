@@ -50,7 +50,7 @@ export default function FloatingButtons() {
         transition={{ type: "spring", stiffness: 260, damping: 20 }}
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}
-        href="https://wa.me/593963516821"
+        href="https://wa.me/593998740006"
         target="_blank"
         rel="noopener noreferrer"
         className="w-16 h-16 bg-[#25D366] text-white rounded-full flex items-center justify-center shadow-[0_4px_14px_0_rgba(37,211,102,0.39)] hover:shadow-[0_6px_20px_rgba(37,211,102,0.23)] transition-shadow group relative"

@@ -21,7 +21,6 @@ export default function Navbar() {
     { name: 'Especialidades', href: '#especialidades' },
     { name: 'Galería', href: '#galeria' },
     { name: 'Pedidos', href: '#pedidos' },
-    { name: 'Ubicación', href: '#ubicacion' },
     { name: 'Contacto', href: '#contacto' },
   ];
 
@@ -37,10 +36,7 @@ export default function Navbar() {
       <div className="container mx-auto px-4 md:px-6 flex justify-between items-center">
         {/* Logo */}
         <a href="#inicio" className="flex items-center gap-2 group">
-          <div className="w-10 h-10 bg-brand-yellow rounded-full flex items-center justify-center text-white font-display font-bold text-xl group-hover:rotate-12 transition-transform shadow-lg shadow-brand-yellow/20">
-            Um!
-          </div>
-          <span className="font-display font-bold text-2xl tracking-tight text-brand-dark">Bakery</span>
+          <span className="font-display font-black text-3xl tracking-tight text-brand-dark">KHASA</span>
         </a>
 
         {/* Desktop Nav */}
@@ -59,7 +55,7 @@ export default function Navbar() {
         {/* CTA Button */}
         <div className="hidden lg:flex items-center">
           <a
-            href="https://wa.me/593963516821"
+            href="https://wa.me/593998740006"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-brand-pink hover:scale-105 text-white font-bold py-3 px-6 rounded-full transition-transform duration-300 shadow-lg shadow-pink-200 flex items-center gap-2 uppercase tracking-widest text-sm"
@@ -99,7 +95,7 @@ export default function Navbar() {
                 </a>
               ))}
               <a
-                href="https://wa.me/593963516821"
+                href="https://wa.me/593998740006"
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setIsMobileMenuOpen(false)}

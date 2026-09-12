@@ -12,7 +12,7 @@ const reviews = [
   {
     id: 2,
     name: "Carlos V.",
-    text: "El ambiente es súper acogedor, ideal para trabajar un rato o ir de brunch el fin de semana.",
+    text: "Los postres llegaron en perfecto estado y la presentación es increíble. Excelente servicio a domicilio.",
     rating: 5,
     bgColor: "bg-white border border-brand-yellow/20 shadow-sm hover:shadow-xl transition-shadow"
   },

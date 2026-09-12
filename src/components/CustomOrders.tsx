@@ -22,13 +22,13 @@ export default function CustomOrders() {
                 ¿Algo Especial?
               </h2>
               <p className="text-lg text-brand-dark/80 mb-8 font-medium">
-                Tortas personalizadas para momentos inolvidables. Hacemos realidad tus ideas. 
-                Desde cumpleaños hasta bodas, diseñamos pasteles que no solo se ven espectaculares, 
-                sino que saben increíbles.
+                Hacemos realidad tus ideas. Desde cumpleaños hasta bodas, diseñamos 
+                pasteles que no solo se ven espectaculares, sino que saben increíbles. 
+                Cuéntanos tu visión y nosotros nos encargamos del resto.
               </p>
               
               <a
-                href="https://wa.me/593994335216"
+                href="https://wa.me/593998740006"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-brand-dark hover:bg-white text-white hover:text-brand-dark font-bold py-4 px-10 rounded-2xl transition-colors duration-300 text-sm tracking-widest shadow-xl inline-block uppercase"
